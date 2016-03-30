@@ -1,4 +1,4 @@
 # dingshilun.github.io
 ---
 ##How to flash an Acadia?
-[read this article..](./blob/master/FlashAcadia.html)
+[read this article..](./FlashAcadia.html)
