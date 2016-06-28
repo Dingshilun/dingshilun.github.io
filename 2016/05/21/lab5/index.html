@@ -3,17 +3,53 @@
 <head>
   <meta charset="utf-8">
   
-  <title>胡言乱语</title>
+  <title>uC/OS室温计 | 胡言乱语</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="胡言乱语">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="#5 uC/OS室温计
+这个实验的目的是理解uC/OS II的任务调度方式，编写uC/OS II的应用程序，通过寄存器直接操纵GPIO来驱动外 部设备。
+##配合课程
+RTOS
+##实验目的
+学习uC/OS II的应用程序编写；理解如何直接操纵GPIO，体会与Linux的不同；学习单总线设备的访问方式；学习7段数码管的时分复用驱动方式。
+##实验器材
+###硬件
+STM32F103板一块；USB串">
+<meta property="og:type" content="article">
+<meta property="og:title" content="uC/OS室温计">
+<meta property="og:url" content="http://yoursite.com/2016/05/21/lab5/index.html">
 <meta property="og:site_name" content="胡言乱语">
-<meta property="og:description">
+<meta property="og:description" content="#5 uC/OS室温计
+这个实验的目的是理解uC/OS II的任务调度方式，编写uC/OS II的应用程序，通过寄存器直接操纵GPIO来驱动外 部设备。
+##配合课程
+RTOS
+##实验目的
+学习uC/OS II的应用程序编写；理解如何直接操纵GPIO，体会与Linux的不同；学习单总线设备的访问方式；学习7段数码管的时分复用驱动方式。
+##实验器材
+###硬件
+STM32F103板一块；USB串">
+<meta property="og:image" content="http://yoursite.com/./lab5pic/segmentpin.jpg">
+<meta property="og:image" content="http://yoursite.com/./lab5pic/se.png">
+<meta property="og:image" content="http://yoursite.com/./lab5pic/segment.png">
+<meta property="og:image" content="http://yoursite.com/./lab5pic/dht22.png">
+<meta property="og:image" content="http://yoursite.com/./lab5pic/codestructure.png">
+<meta property="og:image" content="http://yoursite.com/./lab5pic/img_0575.jpg">
+<meta property="og:image" content="http://yoursite.com/./lab1pic/fd.jpg">
+<meta property="og:image" content="http://yoursite.com/./lab5pic/dht11.png">
+<meta property="og:image" content="http://yoursite.com/./lab5pic/img_0572.jpg">
+<meta property="og:image" content="http://yoursite.com/./lab5pic/img_0574.jpg">
+<meta property="og:updated_time" content="2016-06-28T09:36:10.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="胡言乱语">
-<meta name="twitter:description">
+<meta name="twitter:title" content="uC/OS室温计">
+<meta name="twitter:description" content="#5 uC/OS室温计
+这个实验的目的是理解uC/OS II的任务调度方式，编写uC/OS II的应用程序，通过寄存器直接操纵GPIO来驱动外 部设备。
+##配合课程
+RTOS
+##实验目的
+学习uC/OS II的应用程序编写；理解如何直接操纵GPIO，体会与Linux的不同；学习单总线设备的访问方式；学习7段数码管的时分复用驱动方式。
+##实验器材
+###硬件
+STM32F103板一块；USB串">
+<meta name="twitter:image" content="http://yoursite.com/./lab5pic/segmentpin.jpg">
   
     <link rel="alternate" href="/atom.xml" title="胡言乱语" type="application/atom+xml">
   
@@ -66,9 +102,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-lab5" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-lab5" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/05/21/lab5/" class="article-date">
   <time datetime="2016-05-21T06:48:19.000Z" itemprop="datePublished">2016-05-21</time>
@@ -81,8 +115,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/05/21/lab5/">uC/OS室温计</a>
+    <h1 class="article-title" itemprop="name">
+      uC/OS室温计
     </h1>
   
 
@@ -161,304 +195,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-FlashAcadia" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/04/02/FlashAcadia/" class="article-date">
-  <time datetime="2016-04-02T08:38:43.000Z" itemprop="datePublished">2016-04-02</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/02/FlashAcadia/">How to flash an Acadia</a>
-    </h1>
+    <a href="/2016/04/02/FlashAcadia/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">How to flash an Acadia</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="Flash-an-Acadia"><a href="#Flash-an-Acadia" class="headerlink" title="Flash an Acadia"></a>Flash an Acadia</h1><p>Sometimes the system on the Acadia might break down and it is impossible for user to reach the system in the Acadia. The best way to solve this problem is obviously flashing a new system into the Acadia.</p>
-<p>According to the <a href="http://learn.linksprite.com/acadia/tutorial-on-flashing-linksprite-acadia/" target="_blank" rel="external">Tutorial on Flashing LinkSprite Acadia</a> written by the producer of Acadia, there are two methods to rescue broken system on Acadia.</p>
-<h3 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h3><p>This article is focused on Acadia, if you are trying to flash another version of pcDuino, please find information on <a href="learn.linksprite.com">learn.linksprite.com</a></p>
-<h2 id="How-to-flash"><a href="#How-to-flash" class="headerlink" title="How to flash"></a>How to flash</h2><ol>
-<li>Download the relevant files <a href="http://www.linksprite.com/?page_id=1112" target="_blank" rel="external">Mfgtools-Rel-4.1.0_Acadia_MX6Q_UPDATER.zip</a>(remember to choose the Release version using Mfgtools).</li>
-<li>After extract all files, the directory is shown as below:<br> <img src="FlashAcadia/Screen-Shot-2015-02-01-at-11.31.19-AM.png" alt="pic"></li>
-<li>Now if you want to flash the system into the eMMC on Acadia, change the [LIST]-&gt;name of cfg.ini like this:<br> <strong>name=Acadia-eMMC</strong><br>And if you want to flash the system into the SD card,just change the content as<br><strong>name=Acadia-SD1</strong>, which represents the SD slot in the front of Acadia.<br><img src="FlashAcadia/IMG_20160330_213424.jpg" alt="front sd"><br><strong>name=Acadia-SD2</strong>, which represents the SD slot in the back of Acadia.<br><strong>Remember to restart the Mfgtools after you change the ini file.</strong>  </li>
-<li>Now launch the Mfgtools, and connect the Acadia with your PC using its OTG USB port.</li>
-<li>Make sure the boot switches are all in OFF position.<br><img src="FlashAcadia/acadia_boot.jpg" alt="pic">  </li>
-<li>Now click <strong>Start</strong> in Mfgtools and wait until it finishes.<br><img src="FlashAcadia/QQͼƬ20160330211731.png" alt="mfgtool"></li>
-</ol>
-<h2 id="Start-Acadia"><a href="#Start-Acadia" class="headerlink" title="Start Acadia"></a>Start Acadia</h2><p>After flashing, the Acadia can start from eMMC, SD1 or SD2. It depends on the boot switches.  </p>
-<table>
-<thead>
-<tr>
-<th style="text-align:right">Start From</th>
-<th style="text-align:center">S1</th>
-<th style="text-align:center">S2</th>
-<th style="text-align:center">S3</th>
-<th style="text-align:center">S4</th>
-<th style="text-align:center">S5</th>
-<th style="text-align:center">S6</th>
-<th style="text-align:center">S7</th>
-<th style="text-align:left">S8</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right">eMMC</td>
-<td style="text-align:center">ON</td>
-<td style="text-align:center">ON</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">ON</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">ON</td>
-<td style="text-align:center">ON</td>
-<td style="text-align:left">Off</td>
-</tr>
-<tr>
-<td style="text-align:right">SD1</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">ON</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">ON</td>
-<td style="text-align:left">Off</td>
-</tr>
-<tr>
-<td style="text-align:right">SD2</td>
-<td style="text-align:center">ON</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">ON</td>
-<td style="text-align:left">Off</td>
-</tr>
-</tbody>
-</table>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/04/02/FlashAcadia/" data-id="cimms0zgy0000qvfgb0bhty0n" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Acadia/">Acadia</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Flashing/">Flashing</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-BicycleCpu" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/03/24/BicycleCpu/" class="article-date">
-  <time datetime="2016-03-24T00:45:52.000Z" itemprop="datePublished">2016-03-24</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/03/24/BicycleCpu/">Bicycle Cpu</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="自行车码表CPU选择"><a href="#自行车码表CPU选择" class="headerlink" title="#自行车码表CPU选择"></a>#自行车码表CPU选择</h2><p>###码表CPU需要承担的功能</p>
-<ul>
-<li>连接自行车轮圈上的感应器，记录轮圈速度</li>
-<li>在液晶屏上显示当前速度</li>
-<li>开关功能  </li>
-</ul>
-<p>###对CPU的要求</p>
-<ul>
-<li>可以即时处理感应器发来的信息，在1s内更新自行车速度，否则用户体验会很差</li>
-<li>由于使用小型锂电池供电，能耗不能过高</li>
-<li>提供足够感应器和液晶屏显示需要使用的引脚数量<ul>
-<li>感应器一般使用两个引脚</li>
-<li>液晶屏是八位共阴或共阳数码管，只需要大约5-8个引脚即可使用</li>
-</ul>
-</li>
-<li>需要提供浮点运算功能，计算当前速度</li>
-<li>成本不能太高</li>
-<li>在STM32家族中选择</li>
-</ul>
-<p>###CPU的选择</p>
-<ul>
-<li>CPU主频<br>由于1s内只用做极少次数的数学运算，同时对速度更新的要求相对来说比较宽松，可以选择低频的CPU，在STEM32家族中，选择24MHz主频的系列极为合适</li>
-<li>Flash闪存<br>在自行车码数的计算中实在不需要什么存储，16KB已经完全足够用来存储需要使用到的程序了</li>
-<li>RAM<br>在自行车码数的计算中可能会要求存储到之前几秒的感应器数据，所以4K的RAM也足够实用了</li>
-<li><p>引脚数量<br>任意一款STM32的核心都可以担当自行车码表的重任  </p>
-<p>综上所属，选择STM32F100C4作为自行车码表的CPU是可行的，其价格也非常可人，在大量购买时甚至可以以低于8CNY的价格买到。</p>
-</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/03/24/BicycleCpu/" data-id="cipz9ftrk0000l7fg8fsd3f2i" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Cpu-evaluation/">Cpu evaluation</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-GPS on your hands" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/03/17/GPS on your hands/" class="article-date">
-  <time datetime="2016-03-17T08:15:16.000Z" itemprop="datePublished">2016-03-17</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/03/17/GPS on your hands/">GPS on your hands</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>#GPS手持地图终端</p>
-<hr>
-<p>现今智能手机虽然几乎霸占了整个导航市场，但是在很多情况下，GPS手持地图终端还是有需求量的，例如在特种情况(如测量，探险，军事)下的使用，这给予了手持地图终端存在的合理性和必要性。市场上也有相当一部分的导航仪，如 <a href="https://item.taobao.com/item.htm?spm=a230r.1.14.45.mkiWBk&amp;id=19779922084&amp;ns=1&amp;abbucket=11#detail" target="_blank" rel="external">摩托车导航仪</a>。</p>
-<p>##功能性能描述</p>
-<p>###应用场景</p>
-<ul>
-<li>适用于自行车装配或手持</li>
-<li>可以在户外环境下保持长期正常运行，防水防尘等</li>
-<li>具有简便的交互，发生错误可以快速复位</li>
-</ul>
-<p>###基础功能</p>
-<ul>
-<li>离线地图上实时的导航和定位功能，包括<ul>
-<li>显示地图，以及地图的读取和保存，将地图下载到终端的功能</li>
-<li>实时根据GPS信息在地图上显示出相应的位置和方向，经纬度等信息，帮助使用者了解自己的位置，这个功能的响应延迟要求小于1秒</li>
-<li>使用者可以输入自己想要去到的目的地，终端根据使用者的位置计算出到达目的地的路径，并在终端上显示出来</li>
-</ul>
-</li>
-<li>终端自身功能<ul>
-<li>开关机，调节显示屏亮度，显示剩余电量和GPS连接信息</li>
-<li>调节显示地图的比例尺</li>
-</ul>
-</li>
-<li>硬件功能和要求<ul>
-<li>可以稳定安放在自行车把手上的固定器</li>
-<li>防水功能</li>
-<li>可供输入的按钮</li>
-<li>可连续使用4小时以上的续航</li>
-<li>5寸的显示LCD屏</li>
-</ul>
-</li>
-</ul>
-<p>###附加功能</p>
-<ul>
-<li>手电筒功能</li>
-<li>移动速度提醒</li>
-</ul>
-<p>##硬件和软件实现</p>
-<p>####终端所需软件</p>
-<ul>
-<li>ARM安卓操作系统，只会自动运行地图程序</li>
-<li>地图程序<ul>
-<li>一个用于显示地图和其余信息的GUI</li>
-<li>GPS模块信息处理功能，解析GPS模块传来的信息并存储，供之后使用</li>
-<li>地图显示功能，解析存储在rom中的地图数据，并根据当前GPS的经纬度信息和比例尺显示对应的地图</li>
-<li>可以接受目的地信息，并实时根据当前所在位置计算更新到达目的地的路径</li>
-<li>可以接受外部端口发送的信息，提供目的地设定和比例尺缩放功能</li>
-</ul>
-</li>
-</ul>
-<p>####终端所需基础硬件</p>
-<ul>
-<li>安卓开发核心板一块</li>
-<li>GPS模块一个</li>
-<li>符合供电要求的可充电锂电池</li>
-<li>5寸LCD显示屏一个</li>
-<li>塑料外壳</li>
-<li>5寸触摸屏一块</li>
-<li>16G sd卡一张</li>
-<li>手电灯泡一个</li>
-</ul>
-<p>##地图功能实现</p>
-<ul>
-<li>离线地图功能<ul>
-<li>系统开机自动运行地图程序，并每隔一段时间检查地图软件是否关闭，如果关闭则打开地图</li>
-<li>地图以程序能读取的方式存储在sd卡中，同时由配套的pc端软件下载地图到sd卡中</li>
-<li>地图读取GPS信息，调取相应的地图显示在LCD屏中</li>
-<li>通过触摸屏上的对应功能来使用相应的功能<ol>
-<li>设定目的地，开始导航</li>
-<li>取消导航</li>
-<li>放大或缩小地图</li>
-<li>刷新定位</li>
-</ol>
-</li>
-</ul>
-</li>
-<li>导航功能<ul>
-<li>利用现成算法计算使用者与目标点之间的合适路径</li>
-<li>将路径用不同的方式显示在地图上</li>
-</ul>
-</li>
-</ul>
-<p>##成本估计</p>
-<ul>
-<li>开发板    100-150</li>
-<li>LCD屏    40-</li>
-<li>触摸屏    40-</li>
-<li>GPS模块    70～</li>
-<li>其余杂项    30～</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/03/17/GPS on your hands/" data-id="cipz9ftro0001l7fg401uyy7j" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GPS/">GPS</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 </section>
         

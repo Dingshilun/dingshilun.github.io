@@ -11,15 +11,15 @@
 <meta property="og:url" content="http://yoursite.com/2016/04/02/FlashAcadia/index.html">
 <meta property="og:site_name" content="胡言乱语">
 <meta property="og:description" content="Flash an AcadiaSometimes the system on the Acadia might break down and it is impossible for user to reach the system in the Acadia. The best way to solve this problem is obviously flashing a new syste">
-<meta property="og:image" content="http://yoursite.com/2016/04/02/FlashAcadia/Screen-Shot-2015-02-01-at-11.31.19-AM.png">
-<meta property="og:image" content="http://yoursite.com/2016/04/02/FlashAcadia/IMG_20160330_213424.jpg">
-<meta property="og:image" content="http://yoursite.com/2016/04/02/FlashAcadia/acadia_boot.jpg">
-<meta property="og:image" content="http://yoursite.com/2016/04/02/FlashAcadia/QQͼƬ20160330211731.png">
+<meta property="og:image" content="http://yoursite.com/FlashAcadia/Screen-Shot-2015-02-01-at-11.31.19-AM.png">
+<meta property="og:image" content="http://yoursite.com/FlashAcadia/IMG_20160330_213424.jpg">
+<meta property="og:image" content="http://yoursite.com/FlashAcadia/acadia_boot.jpg">
+<meta property="og:image" content="http://yoursite.com/FlashAcadia/QQͼƬ20160330211731.png">
 <meta property="og:updated_time" content="2016-04-05T00:57:02.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="How to flash an Acadia">
 <meta name="twitter:description" content="Flash an AcadiaSometimes the system on the Acadia might break down and it is impossible for user to reach the system in the Acadia. The best way to solve this problem is obviously flashing a new syste">
-<meta name="twitter:image" content="http://yoursite.com/2016/04/02/FlashAcadia/Screen-Shot-2015-02-01-at-11.31.19-AM.png">
+<meta name="twitter:image" content="http://yoursite.com/FlashAcadia/Screen-Shot-2015-02-01-at-11.31.19-AM.png">
   
     <link rel="alternate" href="/atom.xml" title="胡言乱语" type="application/atom+xml">
   
@@ -63,7 +63,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Søk"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -99,11 +99,11 @@
 <h3 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h3><p>This article is focused on Acadia, if you are trying to flash another version of pcDuino, please find information on <a href="learn.linksprite.com">learn.linksprite.com</a></p>
 <h2 id="How-to-flash"><a href="#How-to-flash" class="headerlink" title="How to flash"></a>How to flash</h2><ol>
 <li>Download the relevant files <a href="http://www.linksprite.com/?page_id=1112" target="_blank" rel="external">Mfgtools-Rel-4.1.0_Acadia_MX6Q_UPDATER.zip</a>(remember to choose the Release version using Mfgtools).</li>
-<li>After extract all files, the directory is shown as below:<br> <img src="/2016/04/02/FlashAcadia/Screen-Shot-2015-02-01-at-11.31.19-AM.png" alt="pic"></li>
-<li>Now if you want to flash the system into the eMMC on Acadia, change the [LIST]-&gt;name of cfg.ini like this:<br> <strong>name=Acadia-eMMC</strong><br>And if you want to flash the system into the SD card,just change the content as<br><strong>name=Acadia-SD1</strong>, which represents the SD slot in the front of Acadia.<br><img src="/2016/04/02/FlashAcadia/IMG_20160330_213424.jpg" alt="front sd"><br><strong>name=Acadia-SD2</strong>, which represents the SD slot in the back of Acadia.<br><strong>Remember to restart the Mfgtools after you change the ini file.</strong>  </li>
+<li>After extract all files, the directory is shown as below:<br> <img src="FlashAcadia/Screen-Shot-2015-02-01-at-11.31.19-AM.png" alt="pic"></li>
+<li>Now if you want to flash the system into the eMMC on Acadia, change the [LIST]-&gt;name of cfg.ini like this:<br> <strong>name=Acadia-eMMC</strong><br>And if you want to flash the system into the SD card,just change the content as<br><strong>name=Acadia-SD1</strong>, which represents the SD slot in the front of Acadia.<br><img src="FlashAcadia/IMG_20160330_213424.jpg" alt="front sd"><br><strong>name=Acadia-SD2</strong>, which represents the SD slot in the back of Acadia.<br><strong>Remember to restart the Mfgtools after you change the ini file.</strong>  </li>
 <li>Now launch the Mfgtools, and connect the Acadia with your PC using its OTG USB port.</li>
-<li>Make sure the boot switches are all in OFF position.<br><img src="/2016/04/02/FlashAcadia/acadia_boot.jpg" alt="pic">  </li>
-<li>Now click <strong>Start</strong> in Mfgtools and wait until it finishes.<br><img src="/2016/04/02/FlashAcadia/QQ&#x37C;&#x1AC;20160330211731.png" alt="mfgtool"></li>
+<li>Make sure the boot switches are all in OFF position.<br><img src="FlashAcadia/acadia_boot.jpg" alt="pic">  </li>
+<li>Now click <strong>Start</strong> in Mfgtools and wait until it finishes.<br><img src="FlashAcadia/QQͼƬ20160330211731.png" alt="mfgtool"></li>
 </ol>
 <h2 id="Start-Acadia"><a href="#Start-Acadia" class="headerlink" title="Start Acadia"></a>Start Acadia</h2><p>After flashing, the Acadia can start from eMMC, SD1 or SD2. It depends on the boot switches.  </p>
 <table>
@@ -160,7 +160,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/04/02/FlashAcadia/" data-id="cimmq165s00006rfg72oo27bk" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/04/02/FlashAcadia/" data-id="cimms0zgy0000qvfgb0bhty0n" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Acadia/">Acadia</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Flashing/">Flashing</a></li></ul>
@@ -169,6 +169,25 @@
   </div>
   
     
+<nav id="article-nav">
+  
+    <a href="/2016/05/21/lab5/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          uC/OS室温计
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/03/24/BicycleCpu/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Bicycle Cpu</div>
+    </a>
+  
+</nav>
+
   
 </article>
 
@@ -177,13 +196,20 @@
           <aside id="sidebar">
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Kategorier</h3>
+    <div class="widget">
+      <ul class="category-list"></ul>
+    </div>
+  </div>
+
 
   
     
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Acadia/">Acadia</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Flashing/">Flashing</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Acadia/">Acadia</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cpu-evaluation/">Cpu evaluation</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Flashing/">Flashing</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GPS/">GPS</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/schedule/">schedule</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/uC-OS/">uC/OS</a></li></ul>
     </div>
   </div>
 
@@ -193,16 +219,16 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Acadia/" style="font-size: 10px;">Acadia</a> <a href="/tags/Flashing/" style="font-size: 10px;">Flashing</a>
+      <a href="/tags/Acadia/" style="font-size: 10px;">Acadia</a> <a href="/tags/Cpu-evaluation/" style="font-size: 10px;">Cpu evaluation</a> <a href="/tags/Flashing/" style="font-size: 10px;">Flashing</a> <a href="/tags/GPS/" style="font-size: 10px;">GPS</a> <a href="/tags/schedule/" style="font-size: 10px;">schedule</a> <a href="/tags/uC-OS/" style="font-size: 10px;">uC/OS</a>
     </div>
   </div>
 
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">Arkiv</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li></ul>
     </div>
   </div>
 
@@ -210,12 +236,24 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Siste innlegg</h3>
     <div class="widget">
       <ul>
         
           <li>
+            <a href="/2016/05/21/lab5/">uC/OS室温计</a>
+          </li>
+        
+          <li>
             <a href="/2016/04/02/FlashAcadia/">How to flash an Acadia</a>
+          </li>
+        
+          <li>
+            <a href="/2016/03/24/BicycleCpu/">Bicycle Cpu</a>
+          </li>
+        
+          <li>
+            <a href="/2016/03/17/GPS on your hands/">GPS on your hands</a>
           </li>
         
       </ul>
